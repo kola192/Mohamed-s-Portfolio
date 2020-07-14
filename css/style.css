@@ -330,7 +330,7 @@ Hero section start
 /*hamburger end*/
 
 }
-/*media queries start*/
+/*media queries end*/
 
 /*nav end*/
 
@@ -524,7 +524,7 @@ About section start
 
 .about-para {
 	padding: var(--spacer-s) var(--spacer-m) var(--spacer-m);
-	text-align: center;
+	text-align: start;
 	line-height: 1.7;
 	color: var(--tx-clr);
 	font-size: 1.15em;
@@ -578,13 +578,13 @@ About section start
 	}
 	
 	.slider-box {
-		width: 230px;
-		height: 230px;
+		width: 200px;
+		height: 200px;
 	}
 	
 	.about-img {
-		width: 230px;
-		height: 230px;
+		width: 200px;
+		height: 200px;
 	}
 }
 
@@ -703,15 +703,6 @@ body.overlay-open .my-work .slider-overlay {
 .big-img {
 	width: 60vw;
 	height: 80vh;
-	opacity: 0;
-	-webkit-transition: opacity 1s ease;
-	-moz-transition: opacity 1s ease;
-	-o-transition: opacity 1s ease;
-	transition: opacity 1s ease;
-}
-
-body.overlay-open .my-work .slider-overlay .big-img {
-	opacity: 1;
 }
 
 .cross-sign {
@@ -722,13 +713,28 @@ body.overlay-open .my-work .slider-overlay .big-img {
 	font-weight: var(--fw-s);
 	font-size: var(--fs-h2);
 	cursor: pointer;
-	padding: var(--spacer-s);
+	padding: calc(var(--spacer-s)/3);
+	outline: 1px solid var(--light-clr);
 }
 
 @media(max-width: 600px) {
+	.img-box {
+		width: 75vw;
+		height: 45vh;
+	}
+
 	.big-img {
-	height: 50vh;
-}
+		width: 75vw;
+		height: 40vh;
+	}
+
+	.overlay-prev {
+		padding: var(--spacer-s) 10px;
+	}
+
+	.overlay-next {
+		padding: var(--spacer-s) 10px;
+	}
 }
 /*slider overlay start */
 
