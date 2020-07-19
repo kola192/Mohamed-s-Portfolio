@@ -142,7 +142,7 @@ Loading screen Start
 
 window.addEventListener('load', () => {
 	setTimeout( ()=> {
-		document.body.classList.add('fadeOut')}, 2000)
+		document.body.classList.add('fadeOut')}, 1000)
 	setTimeout( () => {
 		document.querySelector('.loading-body').remove()}, 3000)
 })
