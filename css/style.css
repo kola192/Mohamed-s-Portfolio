@@ -976,11 +976,11 @@ footer section start
 }
 	
 	.email {
-	font-size: .85em;
+	font-size: .75em;
 }
 	
 	.email i {
-		margin-right: .2em;
+		margin-right: .1em;
 	}
 	
 }
@@ -992,7 +992,29 @@ footer section end
 */
 
 
+/*
+======================== 
+copy write section start
+========================
+*/
 
+.copy {
+	background-color: #1f1b1b;
+}
+
+.copy p {
+	color: var(--light-clr);
+	padding: 0;
+	margin: 5px; 
+	text-align: center;
+	font-size: .85em;
+}
+
+/*
+====================== 
+copy write section end
+======================
+*/
 
 
 
