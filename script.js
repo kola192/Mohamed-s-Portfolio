@@ -135,6 +135,25 @@ Slider End
 
 
 /*
+==================== 
+Loading screen Start
+====================
+*/
+
+window.addEventListener('load', () => {
+	setTimeout( ()=> {
+		document.body.classList.add('fadeOut')}, 2000)
+	setTimeout( () => {
+		document.querySelector('.loading-body').remove()}, 3000)
+})
+
+/*
+=================== 
+Loading screen End
+===================
+*/
+
+/*
 ================ 
 Functions Start
 ================
