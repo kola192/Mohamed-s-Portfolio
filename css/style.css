@@ -103,7 +103,7 @@ Hero section start
 .hero {
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../imgs/bg.jpg);
+	background: url(../imgs/bg.jpg) fixed;
 	background-color: rgba(0, 0, 0, .8);
 	-webkit-background-blend-mode: multiply;
 	-moz-background-blend-mode: multiply;
